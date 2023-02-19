@@ -1,0 +1,106 @@
+:root {
+    /* Font */
+--primary-font:'Roboto', sans-sherif;
+
+/* Text color */
+--primary-txt-cl: #2C2C2C;
+--secondary-txt-cl: ;
+--accent-txt-cl: ;
+
+/* Backgraund colors */
+--primary-bg-cl: #FFE550;
+--secondary-bg-cl: ;
+--batton-bg: #BBF330;
+--dark-bg: #7EB101;
+--light-bg: #FEFEFE;
+--black-bt: #2C2C2C;
+
+
+}
+
+/* reset styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+
+}
+
+/* reset end */
+
+/* body */
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: calc(24 / 16);
+color: var(--primary-txt-cl);
+}
+
+.container {
+width: 1280px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Header */
+
+.header-container {
+
+}
+
+
+/* section Hero */
+
+.hero-container {
+
+}
+
+
+/* section offerings */
+
+.offerings-container {
+background-color: var(--primary-bg-cl);   
+}
+
+
+/* section favorites */
+
+
+/* section customers */
+
+.customers-container {
+background-color: var(--primary-bg-cl);
+}
+
+
+
+/* section reviews */
+
+
+/* Footer */
