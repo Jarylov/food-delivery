@@ -71,7 +71,33 @@ margin-right: auto;
 /* Header */
 
 .header-container {
+display: flex;
+height: 72px;
+align-items: center;
+background: var(--light-bg);
+box-shadow: 0px 4px 24px rgba(105, 105, 105, 0.1);
+}
 
+.nav {
+display: flex;
+gap: 28px;
+margin-left: 735px;
+/* align-items: center; */
+
+}
+
+.button {
+    width: 98px;
+    height: 32px;
+    /* padding: 6px 18px; */
+    background-color: var(--batton-bg);
+    border-radius: 16px;
+    border: none;
+}
+
+.header-button {
+   margin-left: 30px;
+   margin-right: 0px;
 }
 
 
