@@ -88,8 +88,10 @@ margin-left: 700px;
 
 .button {
     width: 98px;
-    height: 32px;
-    /* padding: 6px 18px; */
+    padding: 6px 18px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
     background-color: var(--batton-bg);
     border-radius: 16px;
     border: none;
@@ -103,19 +105,93 @@ margin-left: 700px;
 
 /* section Hero */
 
-.hero-container {
+h1 {
+width: 514px;
+padding-bottom: 28px;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+}
 
+.hero-container {
+padding: 27px 0px;
+}
+
+.list-hero {
+display: flex;
+align-items: center;
+}
+
+.text-hero {
+width: 514px;
+padding-bottom: 46px;
+font-size: 16px;
+line-height: 150%;
+}
+
+.thumb {
+width: 560px;
+height: 560px;
+border: 14px solid #FFE550;
+border-radius: 50%;
+margin-left: 172px;
 }
 
 
 /* section offerings */
 
+.offerings {
+padding: 100px 0px;
+background-color: var(--primary-bg-cl);
+}
+
 .offerings-container {
-background-color: var(--primary-bg-cl);   
+display: flex;
+align-items: center;
+}
+
+.div-offerings {
+width: 526px;
+margin-left: 126px;
+}
+
+h2 {
+padding-bottom: 20px;
+font-weight: 700;
+font-size: 42px;
+line-height: 120%;
+}
+
+.list-txt-offer {
+margin-left: 126px;
+}
+
+
+
+.thumb-offer {
+width: 550px;
+height: 550px;
+border: 5px solid rgba(255, 255, 255, 0.5);
+border-radius: 50%;
+}
+
+.button-offerings {
+width: 106px;
+padding: 8px 18px;
+font-weight: 500;
+font-size: 13px;
+line-height: 150%;
+background-color: var(--light-bg);
+border: 2px solid #7EB101;
+border-radius: 20px;
 }
 
 
 /* section favorites */
+
+
+.favorites {
+padding: 100px 0px;}
 
 
 .list-favorites {
@@ -123,10 +199,24 @@ background-color: var(--primary-bg-cl);
    flex-wrap: wrap;
    row-gap: 33px;
    column-gap: 32px;
+   padding-top: 36px;
+}
+
+.thumb-favorites {
+width: 395px;
+height: 395px;
+border: 16px solid #FFE550;
+border-radius: 50%;
+padding: 25px;
 }
 
 
 /* section customers */
+
+.customers {
+padding: 100px 0px;
+background-color: var(--primary-bg-cl);
+}
 
 .customers-container {
 background-color: var(--primary-bg-cl);
