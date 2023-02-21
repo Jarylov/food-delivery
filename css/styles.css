@@ -87,6 +87,7 @@ margin-left: 700px;
 }
 
 .button {
+    display: block;
     width: 98px;
     padding: 6px 18px;
     font-weight: 500;
@@ -130,10 +131,11 @@ line-height: 150%;
 }
 
 .thumb {
-width: 560px;
+ width: 560px;
 height: 560px;
 border: 14px solid #FFE550;
 border-radius: 50%;
+padding: 9px;
 margin-left: 172px;
 }
 
@@ -151,7 +153,7 @@ align-items: center;
 }
 
 .div-offerings {
-width: 526px;
+width: 573px;
 margin-left: 126px;
 }
 
@@ -162,28 +164,45 @@ font-size: 42px;
 line-height: 120%;
 }
 
-.list-txt-offer {
-margin-left: 126px;
-}
 
 
 
 .thumb-offer {
+position: relative;
 width: 550px;
 height: 550px;
 border: 5px solid rgba(255, 255, 255, 0.5);
 border-radius: 50%;
 }
 
+.bg-aple {
+position: absolute;
+padding-left: 20px;
+}
+
+.aple {
+position: absolute;
+padding-left: 70px;
+}
+
 .button-offerings {
-width: 106px;
-padding: 8px 18px;
+display: block;
+padding: 10px 22px;
 font-weight: 500;
 font-size: 13px;
-line-height: 150%;
+line-height: 1.5;
+text-align: center;
+text-shadow: none;
 background-color: var(--light-bg);
 border: 2px solid #7EB101;
-border-radius: 20px;
+border-radius: 30px;
+margin-top: 60px;
+}
+
+.list-txt-offer {
+display: flex;
+gap: 67px;
+margin-top: 40px;
 }
 
 
